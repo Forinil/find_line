@@ -1,0 +1,7 @@
+Style/EndOfLine:
+  EnforcedStyle: lf
+
+Style/ConditionalAssignment:
+  EnforcedStyle: assign_to_condition
+  SingleLineConditionsOnly: false
+  IncludeTernaryExpressions: false
