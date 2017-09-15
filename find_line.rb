@@ -12,29 +12,6 @@ begin
     exit
   end
 
-  # path = "D:\\Logi\\SGSB\\UAT\\integration.2017-08-07"
-  # path = "D:\\Logi\\SGSB\\UAT\\integration.2017-08-24"
-  # path = "D:\\Logi\\SGSB\\UAT\\integration.2017-08-25"
-  # path = "D:\\Logi\\SGSB\\UAT\\integration.2017-08-26"
-  # path = "D:\\Logi\\SGSB\\UAT\\integration.2017-08-27"
-  # path = "D:\\Logi\\SGSB\\UAT\\integration.2017-08-28"
-  # path = "D:\\Logi\\SGSB\\UAT\\integration.2017-08-29"
-  # path = "D:\\Logi\\SGSB\\UAT\\integration"
-  # path = "D:\\Logi\\SGSB\\PROD\\integration"
-  # path = "D:\\Logi\\SGSB\\PREPROD\\web-api.2017-09-01"
-  # path = "D:\\Logi\\SGSB\\PROD\\integration.2017-09-04"
-  # path = "D:\\Logi\\SGSB\\PROD\\csf.2017-09-04"
-  # path = "D:\\Logi\\SGSBC\\PROD\\2017-09-06"
-  # path = "D:\\Logi\\SGSB\\PROD\\cwi.2017-09-01"
-  # path = 'D:\\Logi\\SGSB\\PROD\\web-api.2017-09-07'
-  # text_to_find = /ProductFilesServiceImpl\]- getFiles args: \[ACCOUNTS, 4684782\]/
-  # text_to_find = /EmailsRepositoryImpl/
-  # text_to_find = /ForeignBanks/
-  # text_to_find = /\/deposit\/sendContract/
-  # text_to_find = /<dep:REFERENCE_ID>354370<\/dep:REFERENCE_ID>/
-  # text_to_find = /40667271/
-  # text_to_find = /B6A1FEBBE2BE6D2EA9F4D29A0951547D/
-
   path = ARGV[0]
   text_to_find = Regexp.new(ARGV[1])
   a2 = ARGV[2]
