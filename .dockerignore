@@ -58,7 +58,7 @@ Gemfile.lock
 .rvmrc
 
 # Script output files
-*.log
+find_line.rb.log*
 
 # Git files
 .git/
