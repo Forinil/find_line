@@ -1,4 +1,4 @@
-# find_line
+# FindLine
 A simple grep-like script written in Ruby
 
 **Usage:** `./find_line directory_path regexp output_file_name_suffix(optional)`
