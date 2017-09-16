@@ -15,8 +15,10 @@ begin
   path = ARGV[0]
   text_to_find = Regexp.new(ARGV[1])
   a2 = ARGV[2]
+  result_path = File.dirname($PROGRAM_NAME).to_s
+  result_path = "#{ENV['OUTPUT_DIR']}" unless ENV['OUTPUT_DIR'].nil?
   result_name = a2.nil? ? "result_#{text_to_find.inspect.gsub!(/\//, '')}.txt" : "result_#{a2}.txt"
-  result = File.new(result_name, 'w:utf-8')
+  result = File.new("#{result_path}\\#{result_name}", 'w:utf-8')
 
   logger.log(Logger::INFO,
              "Path to search: #{path}, regexp to find: #{text_to_find.inspect}")

@@ -8,8 +8,11 @@ A simple grep-like script written in Ruby
 - `output_file_name_suffix` - output file will be named result_#{output_file_name_suffix}.txt if this parameter is specified,
     otherwise it will be named result_#{regexp.inspect}.txt
     
-Script stores log files in directory path specified in `LOG_PATH` environmental variable.
-If that variable is not set, log files are being stored in the directory containing the script.   
+Script stores log files in directory specified in `LOG_PATH` environmental variable.
+If that variable is not set, log files are being stored in the directory containing the script.  
+
+Script stores result files in directory specified in `OUTPUT_DIR` environmental variable.
+If that variable is not set, result files are being stored in the directory containing the script.  
     
 **Warning:** if your regexp contains characters that cannot be a part of file name in your operating system, the script will 
 exit with error unless `output_file_name_suffix` is specified     
