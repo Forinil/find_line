@@ -1,7 +1,7 @@
 # FindLine
 A simple grep-like script written in Ruby
 
-**Usage:** `./find_line directory_path regexp output_file_name_suffix(optional)`
+**Usage:** `./find_line.rb directory_path regexp output_file_name_suffix(optional)`
 
 - `directory path` - directory with files to search for occurrences of the pattern
 - `regexp` - pattern occurrences of which to search for
